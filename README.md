@@ -27,10 +27,13 @@ Steps to run code
 3. Ensure that you have python libraries "collisions", "pygame", "numpy", "matplotlib", and "rospkg" installed.
 	 - a) "pip install %libraryname%", where %libraryname% is the name of the library to be installed.
 4. Extract zip file into catkin_ws/src folder
-5. In terminal, navigate to catkin_ws, and run "catkin_make"
-6. In terminal, run "source devel/setup.bash"
-7. In terminal, run "roslaunch proj3 run.launch"
-8. Program will prompt for multiple inputs. These inputs are: robot low RPM, robot high RPM, robot clearance, starting (x, y, angle), and goal (x, y, angle). To demonstrate the results in the video, input the following values.
+5. In terminal, navigate to catkin_ws with "cd ~/catkin_ws"
+6. In terminal, run "catkin_make"
+7. In terminal, run "source devel/setup.bash"
+8. In terminal, run "cd ~/catkin_ws/src/proj3/src"
+9. In terminal, run "chmod +x drive.py"
+10. In terminal, run "roslaunch proj3 run.launch"
+11. Program will prompt for multiple inputs. These inputs are: robot low RPM, robot high RPM, robot clearance, starting (x, y, angle), and goal (x, y, angle). To demonstrate the results in the video, input the following values.
 	 - a) robot low RPM = 50
 	 - b) robot high RPM = 100
 	 - c) robot clearance = 10
