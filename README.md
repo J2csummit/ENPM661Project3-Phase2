@@ -5,6 +5,8 @@ Project 3 Phase 2
 Author: Justin Cheng & Enrico Zoboli
 Class: ENPM 661 - Dr. Reza Monfaredi
 
+NOTE: This code is for PART 1 (2D Simulation) and PART 2 (GAZEBO SIMULATION)
+
 Task
 ----
 Implement A* Algorithm to find a path between start and end point on a given map for a mobile robot (radius = 10; clearance = 5) with non-holonomic constraints.
